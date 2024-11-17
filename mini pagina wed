@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Sencilla</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #e8491d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .gallery img:hover {
+            border: 2px solid #e8491d;
+        }
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Página Web</h1>
+    <p>Un sitio sencillo pero funcional</p>
+</header>
+
+<nav>
+    <a href="#home">Inicio</a>
+    <a href="#about">Acerca de</a>
+    <a href="#gallery">Galería</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<div class="container">
+    <section id="home">
+        <h2>Inicio</h2>
+        <p>Esta es una página web de ejemplo diseñada con HTML y un poco de CSS. Está pensada para mostrar cómo puedes estructurar una página con diferentes secciones.</p>
+    </section>
+
+    <section id="about">
+        <h2>Acerca de</h2>
+        <p>Somos un grupo dedicado a crear contenido educativo para ayudar a las personas a aprender sobre diseño web de forma práctica y sencilla.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Ejemplo 1">
+            <img src="https://via.placeholder.com/300" alt="Ejemplo 2">
+            <img src="https://via.placeholder.com/300" alt="Ejemplo 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas comunicarte con nosotros, envíanos un correo a: <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Mi Página Sencilla. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
